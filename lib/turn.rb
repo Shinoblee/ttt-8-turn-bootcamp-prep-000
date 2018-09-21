@@ -19,7 +19,7 @@ def input_to_index(user_input)
   return user_input
 end
 
-def valid_move(board, user_input)
+def valid_move(board, index)
   if user_input.between?(1,9)
     puts "input good"
   else
