@@ -26,7 +26,7 @@ end
 
 def valid_move(board, index)
   if index.between?(0,8)
-    return TRUE
+    TRUE
   end
 end
 
