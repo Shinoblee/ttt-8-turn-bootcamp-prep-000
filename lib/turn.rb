@@ -35,3 +35,9 @@ end
 def move(board, index, player = 'X')
 
 end
+
+def index_check(board, index)
+  if board[index] == " "
+    TRUE
+  end
+end
