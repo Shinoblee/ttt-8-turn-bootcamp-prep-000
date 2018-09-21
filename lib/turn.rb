@@ -18,7 +18,7 @@ def input_to_index(user_input)
     return user_input -= 1
 end
 
-def valid_move(board, user_input)
+def valid_move(user_input)
   if board[user_input] != " "
     puts "TRUE"
   else
