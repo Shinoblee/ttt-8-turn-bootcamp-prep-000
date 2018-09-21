@@ -19,7 +19,7 @@ def input_to_index(user_input)
     user_input -= 1
     puts user_input
   else
-    
+    puts user_input - 1
     puts "You must select a valid number:"
     user_input = gets.strip
     input_to_index(user_input)
