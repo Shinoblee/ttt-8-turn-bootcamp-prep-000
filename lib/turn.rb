@@ -24,7 +24,7 @@ def input_to_index(user_input)
   return user_input
 end
 
-def valid_move(board, index)
+def valid_move?(board, index)
   if index.between?(0,8)
     TRUE
   end
