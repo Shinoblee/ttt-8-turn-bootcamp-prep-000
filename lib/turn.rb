@@ -3,6 +3,10 @@ def turn(board)
   user_input = gets.strip
   index = input_to_index(user_input)
   if valid_move?(board, index)
+    
+  else
+    puts "Please make a valid selection"
+    turn(board)
 end
 
 def display_board(board)
@@ -22,9 +26,6 @@ end
 def valid_move(board, index)
   if index.between?(0,8)
     return TRUE
-  else
-    puts "Please make a valid selection"
-     turn(board)
   end
 end
 
