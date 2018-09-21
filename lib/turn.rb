@@ -18,7 +18,6 @@ def input_to_index(user_input)
   if user_input.between?(1,9)
     user_input -= 1
     puts user_input
-    return user_input
   else
     puts "You must select a valid number:"
     user_input = gets.strip
