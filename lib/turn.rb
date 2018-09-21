@@ -29,7 +29,7 @@ def valid_move?(board, index)
     puts "we good"
     TRUE
   else
-    FALSE
+    
   end
 end
 
