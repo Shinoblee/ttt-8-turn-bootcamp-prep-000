@@ -21,7 +21,7 @@ end
 
 def valid_move(board, index)
   if index.between?(0,8)
-    puts "input good"
+    return TRUE
   else
     puts "Please make a valid selection"
      turn(board)
