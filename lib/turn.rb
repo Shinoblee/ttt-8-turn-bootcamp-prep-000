@@ -7,6 +7,7 @@ def turn(board)
   else
     puts "Please make a valid selection"
     turn(board)
+  end
 end
 
 def display_board(board)
