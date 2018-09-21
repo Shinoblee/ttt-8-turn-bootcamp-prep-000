@@ -27,8 +27,8 @@ end
 
 def valid_move(board, user_input)
   if board[user_input] == " "
-    return TRUE
+    puts "TRUE"
   else
-    return FALSE
+    puts "FALSE"
   end
 end
