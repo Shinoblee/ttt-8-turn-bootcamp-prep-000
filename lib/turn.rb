@@ -30,4 +30,5 @@ def valid_move(board, user_input)
     return TRUE
   else
     return FALSE
+  end
 end
