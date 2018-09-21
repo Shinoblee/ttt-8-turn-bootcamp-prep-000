@@ -26,5 +26,8 @@ def input_to_index(user_input)
 end
 
 def valid_move(board, user_input)
-  
+  if board[user_input] == ""
+    return TRUE
+  else
+    return FALSE
 end
