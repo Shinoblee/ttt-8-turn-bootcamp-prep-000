@@ -20,6 +20,8 @@ end
 
 def valid_move(board, user_input)
   if user_input.between?(1,9)
+  else
     
+  end
 end
 
