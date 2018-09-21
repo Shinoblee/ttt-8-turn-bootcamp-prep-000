@@ -3,7 +3,6 @@ def turn(board)
   user_input = gets.strip
   input_to_index(user_input)
   #valid_move(board, user_input)
-  puts user_input
 end
 
 def display_board(board)
