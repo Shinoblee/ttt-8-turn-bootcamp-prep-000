@@ -24,8 +24,7 @@ def valid_move(board, index)
     puts "input good"
   else
     puts "Please make a valid selection"
-    user_input = gets.strip
-    input_to_index(user_input)
+     turn(board)
   end
 end
 
