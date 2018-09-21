@@ -21,7 +21,9 @@ end
 def valid_move(board, user_input)
   if user_input.between?(1,9)
   else
-    
+    puts "Please make a valid selection"
+    user_input = gets.strip
+    input_to_index(user_input)
   end
 end
 
