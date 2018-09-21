@@ -2,7 +2,7 @@ def turn(board)
   puts "Please enter 1-9:"
   user_input = gets.strip
   input_to_index(user_input)
-  #valid_move(board, user_input)
+  valid_move(board, user_input)
 end
 
 def display_board(board)
@@ -25,10 +25,10 @@ def input_to_index(user_input)
   end
 end
 
-#def valid_move(board, user_input)
- # if board[user_input] == " "
-  #  puts "TRUE"
-  #else
-   # puts "FALSE"
-  #end
-#end
+def valid_move(board, user_input)
+  if board[user_input] != " "
+    puts "TRUE"
+  else
+    puts "FALSE"
+  end
+end
