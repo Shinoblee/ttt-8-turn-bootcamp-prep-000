@@ -27,7 +27,6 @@ end
 
 def valid_move?(board, index)
   if index.between?(0,8) && index_check(board, index)
-    puts "we good"
     TRUE
   elsif index.between?(0,8) && !index_check(board, index)
     puts "Selection taken"
