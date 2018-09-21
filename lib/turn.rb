@@ -20,6 +20,7 @@ end
 
 def valid_move(board, user_input)
   if user_input.between?(1,9)
+    puts "input good"
   else
     puts "Please make a valid selection"
     user_input = gets.strip
