@@ -29,7 +29,7 @@ def valid_move?(board, index)
     puts "we good"
     TRUE
   elsif index.between?(0,8) && !index_check(board, index)
-    puts "Selection Taken"
+    puts "Selection taken"
     turn(board)
   else
     puts "Please make a valid selection"
