@@ -33,6 +33,7 @@ def valid_move?(board, index)
     turn(board)
   else
     puts "Please make a valid selection"
+    turn(board)
   end
 end
 
