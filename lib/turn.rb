@@ -15,14 +15,7 @@ end
 
 def input_to_index(user_input)
   user_input = user_input.to_i
-  if user_input.between?(1,9)
-    user_input -= 1
-  else
-    puts user_input - 1
-    puts "You must select a valid number:"
-    user_input = gets.strip
-    input_to_index(user_input)
-  end
+    return user_input -= 1
 end
 
 def valid_move(board, user_input)
